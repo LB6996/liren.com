@@ -1,0 +1,36 @@
+body {
+    background: tomato;
+}
+
+#profile-picture {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+#navbar-menu {
+    padding-left: 100px;
+}
+
+#navbar-menu a {
+    margin: 0 20px;
+}
+
+#myProfile h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#myProfile p {
+    font-size: 1.5em;
+}
+
+#profile-picture:hover {
+    animation: zoom 1s infinite;
+}
+
+@keyframes zoom {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.1);}
+    100% {transform: scale (1);}
+}
